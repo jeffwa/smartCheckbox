@@ -4,7 +4,7 @@
     <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
     <title>Smart Checkbox Demo</title>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.0/jquery.min.js"></script>
-    <script src="jquery.smartCheckbox.js"></script>
+    <script src="jquery.smartCheckbox.min.js"></script>
     <script>
     $(function() {
         $(".smartCheckbox").smartCheckbox();
@@ -35,65 +35,64 @@
         Click the group to select the related months. Manually selecting all of the months will automatically select its corresponding group(s).
     </p>
 
-
-<table>
-<thead>
-    <tr>
-        <td colspan='4'>Groups</td>
-    </tr>
-    <tr>
-        <td>
-            <input type='checkbox' id='winter' name='winter' class='smartCheckbox' value='' /><label class='help' for='winter' title='December, January, February'>Winter</label>
-        </td>
-        <td>
-            <input type='checkbox' id='spring' name='spring' class='smartCheckbox' value='' /><label class='help' for='spring' title='March, April, May'>Spring</label>
-        </td>
-        <td>
-            <input type='checkbox' id='summer' name='summer' class='smartCheckbox' value='' /><label class='help' for='summer' title='June, July, August'>Summer</label>
-        </td>
-        <td>
-            <input type='checkbox' id='autumn' name='autumn' class='smartCheckbox' value='' /><label class='help' for='autumn' title='September, October, November'>Autumn</label>
-        </td>
-    </tr>
-    <tr>
-        <td>
-            <input type='checkbox' id='odd' name='odd' class='smartCheckbox' value='' /><label class='help' for='odd' title='January, March, May, July, September, November'>Odd</label>
-        </td>
-        <td>
-            <input type='checkbox' id='even' name='even' class='smartCheckbox' value='' /><label class='help' for='even' title='February, April, June, August, October, December'>Even</label>
-        </td>
-        <td>
-            <input type='checkbox' id='cold' name='cold' class='smartCheckbox' value='' /><label class='help' for='cold' title='January, February, March, October, November, December'>Cold</label>
-        </td>
-        <td>
-            <input type='checkbox' id='warm' name='warm' class='smartCheckbox' value='' /><label class='help' for='warm' title='April, May, June, July, August, September'>Warm</label>
-        </td>
-    </tr>
-</thead>
-<tbody>
-    <tr>
-        <td colspan='4'>Months</td>
-    </tr>
-    <tr>
-        <td><input type="checkbox" name="season" id="January" class="winter odd cold" value="January"><label for='January'>January</label></td>
-        <td><input type="checkbox" name="season" id="February" class="winter even cold" value="February"><label for='February'>February</label></td>
-        <td><input type="checkbox" name="season" id="March" class="spring odd cold" value="March"><label for='March'>March</label></td>
-        <td><input type="checkbox" name="season" id="April" class="spring even warm" value="April"><label for='April'>April</label></td>
-    </tr>
-    <tr>
-        <td><input type="checkbox" name="season" id="May" class="spring odd warm" value="May"><label for='May'>May</label></td>
-        <td><input type="checkbox" name="season" id="June" class="summer even warm" value="June"><label for='June'>June</label></td>
-        <td><input type="checkbox" name="season" id="July" class="summer odd warm" value="July"><label for='July'>July</label></td>
-        <td><input type="checkbox" name="season" id="August" class="summer even warm" value="August"><label for='August'>August</label></td>
-    </tr>
-    <tr>
-        <td><input type="checkbox" name="season" id="September" class="autumn odd warm" value="September"><label for='September'>September</label></td>
-        <td><input type="checkbox" name="season" id="October" class="autumn even cold" value="October"><label for='October'>October</label></td>
-        <td><input type="checkbox" name="season" id="November" class="autumn odd cold" value="November"><label for='November'>November</label></td>
-        <td><input type="checkbox" name="season" id="December" class="winter even cold" value="December"><label for='December'>December</label></td>
-    </tr>
-</tbody>
-</table>
-
+    <table>
+    <thead>
+        <tr>
+            <td colspan='4'>Groups</td>
+        </tr>
+        <tr>
+            <td>
+                <input type='checkbox' id='winter' name='winter' class='smartCheckbox' value='' ><label class='help' for='winter' title='December, January, February'>Winter</label>
+            </td>
+            <td>
+                <input type='checkbox' id='spring' name='spring' class='smartCheckbox' value='' ><label class='help' for='spring' title='March, April, May'>Spring</label>
+            </td>
+            <td>
+                <input type='checkbox' id='summer' name='summer' class='smartCheckbox' value='' ><label class='help' for='summer' title='June, July, August'>Summer</label>
+            </td>
+            <td>
+                <input type='checkbox' id='autumn' name='autumn' class='smartCheckbox' value='' ><label class='help' for='autumn' title='September, October, November'>Autumn</label>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <input type='checkbox' id='odd' name='odd' class='smartCheckbox' value='' ><label class='help' for='odd' title='January, March, May, July, September, November'>Odd</label>
+            </td>
+            <td>
+                <input type='checkbox' id='even' name='even' class='smartCheckbox' value='' ><label class='help' for='even' title='February, April, June, August, October, December'>Even</label>
+            </td>
+            <td>
+                <input type='checkbox' id='cold' name='cold' class='smartCheckbox' value='' ><label class='help' for='cold' title='January, February, March, October, November, December'>Cold</label>
+            </td>
+            <td>
+                <input type='checkbox' id='warm' name='warm' class='smartCheckbox' value='' ><label class='help' for='warm' title='April, May, June, July, August, September'>Warm</label>
+            </td>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td colspan='4'>Months</td>
+        </tr>
+        <tr>
+            <td><input type="checkbox" name="season" id="January" class="winter odd cold" value="January"><label for='January'>January</label></td>
+            <td><input type="checkbox" name="season" id="February" class="winter even cold" value="February"><label for='February'>February</label></td>
+            <td><input type="checkbox" name="season" id="March" class="spring odd cold" value="March"><label for='March'>March</label></td>
+            <td><input type="checkbox" name="season" id="April" class="spring even warm" value="April"><label for='April'>April</label></td>
+        </tr>
+        <tr>
+            <td><input type="checkbox" name="season" id="May" class="spring odd warm" value="May"><label for='May'>May</label></td>
+            <td><input type="checkbox" name="season" id="June" class="summer even warm" value="June"><label for='June'>June</label></td>
+            <td><input type="checkbox" name="season" id="July" class="summer odd warm" value="July"><label for='July'>July</label></td>
+            <td><input type="checkbox" name="season" id="August" class="summer even warm" value="August"><label for='August'>August</label></td>
+        </tr>
+        <tr>
+            <td><input type="checkbox" name="season" id="September" class="autumn odd warm" value="September"><label for='September'>September</label></td>
+            <td><input type="checkbox" name="season" id="October" class="autumn even cold" value="October"><label for='October'>October</label></td>
+            <td><input type="checkbox" name="season" id="November" class="autumn odd cold" value="November"><label for='November'>November</label></td>
+            <td><input type="checkbox" name="season" id="December" class="winter even cold" value="December"><label for='December'>December</label></td>
+        </tr>
+    </tbody>
+    </table>
+</div>
 </body>
 </html>

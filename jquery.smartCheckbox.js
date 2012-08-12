@@ -1,5 +1,5 @@
 /**
- * Smart Checkbox v1.0
+ * Smart Checkbox v1.0.0
  *
  * Copyright (c) 2011 Jeff McLennan
  * Dual licensed under the MIT or GPL Version 3 licenses.
@@ -17,7 +17,7 @@
                 _options = $.extend( {}, $.fn.smartCheckbox.defaults, options );
                 
                 var $that = $(this);
-                if ( $that.attr("type") == "checkbox" ) {
+                if ( $that.attr("type") === "checkbox" ) {
                     var masterId = $that.attr("id");
                     if ( masterId ) {
                         $that.click(function() {
@@ -46,7 +46,7 @@
                 }
             });
         }
-    }
+    };
     
     $.fn.smartCheckbox = function( method ) {
         // Method calling logic
@@ -56,9 +56,11 @@
             return methods.init.apply( this, arguments );
         } else {
             // Log any errors
-            Logger.error( 'Method ' +  method + ' does not exist!' );
-        }   
+            if ( window.console ) {
+                window.console.log( 'Method ' +  method + ' does not exist!' );
+            }
+        }
     };
     
-    $.fn.smartCheckbox.defaults = { }
+    $.fn.smartCheckbox.defaults = { };
 })( jQuery );
