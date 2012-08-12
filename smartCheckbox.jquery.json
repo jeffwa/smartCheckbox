@@ -1,0 +1,37 @@
+{
+    "name": "smartCheckbox",
+    "version": "1.0.0-pre1",
+    "title": "Smart Checkbox",
+    "author": {
+        "name": "Jeff McLennan",
+        "url": "https://github.com/jeffwa"
+    },
+    "licenses": [
+        {
+            "type": "MIT",
+            "url": "http://opensource.org/licenses/MIT"
+        },
+        {
+            "type": "GPLv3",
+            "url": "http://opensource.org/licenses/GPL-3.0"
+        }
+    ],
+    "dependencies": {
+        "jquery": ">=1.6"
+    },
+    "description": "The purpose of this plugin is to create groups of 'smart' checkboxes with parent and children checkboxes that will select and deselect as appropriate.",
+    "keywords": [
+        "smart",
+        "checkbox",
+        "checkboxes",
+        "select",
+        "all"
+    ],
+    "homepage": "https://github.com/jeffwa/smartCheckbox",
+    "maintainers": [
+        {
+            "name": "Jeff McLennan",
+            "url": "https://github.com/jeffwa"
+        }
+    ]
+}
