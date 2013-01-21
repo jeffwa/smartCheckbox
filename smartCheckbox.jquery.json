@@ -1,9 +1,10 @@
 {
     "name": "smartCheckbox",
-    "version": "1.0.0-pre1",
+    "version": "1.0.0",
     "title": "Smart Checkbox",
     "author": {
         "name": "Jeff McLennan",
+        "email": "jeffwa@gmail.com",
         "url": "https://github.com/jeffwa"
     },
     "licenses": [
@@ -31,6 +32,7 @@
     "maintainers": [
         {
             "name": "Jeff McLennan",
+            "email": "jeffwa@gmail.com",
             "url": "https://github.com/jeffwa"
         }
     ]
