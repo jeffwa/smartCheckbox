@@ -1,12 +1,14 @@
 smartCheckbox
 =============
 
-Smart Checkbox, a jQuery plugin that sets up parent and child checkboxes.
+A simple jQuery plugin that groups checkboxes together to one or more parent checkbox, thus creating smart checkbox groups that select/deselect as the conditions call for. Parent checkboxes will be selected automatically when all of its children are selected, and conversely, will deselect if one of its children is not selected. Selection of a parent checkbox will select all of its children.
 
 ### How it works
 
 The plugin takes a parent checkbox (or checkboxes), adds a click event to select/deselect its children and adds a change event to the
 children to set the appropriate state on the parent based on all the children.
+
+View a live demo of the latest version at [http://smartcheckbox.jeffmclennan.com](http://smartcheckbox.jeffmclennan.com "smartcheckbox.jeffmclennan.com")
 
 ### Usage
 

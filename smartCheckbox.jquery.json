@@ -22,11 +22,11 @@
     },
     "description": "The purpose of this plugin is to create groups of 'smart' checkboxes with parent and children checkboxes that will select and deselect as appropriate.",
     "keywords": [
-        "smart",
         "checkbox",
-        "checkboxes",
-        "select",
-        "all"
+        "form"
+        "ui",
+        "smart",
+        "select all",
     ],
     "homepage": "https://github.com/jeffwa/smartCheckbox",
     "maintainers": [
